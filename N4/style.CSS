@@ -1,0 +1,177 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+*{
+ margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+header{
+ background-color: #1A1A1A;
+ padding-top: 36px;
+ padding-bottom: 200px;
+}
+.container{
+ max-width: 1080px;
+ margin: auto;
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.logo{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background-color: white;
+ color: #1A1A1A;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-decoration: none;
+ font-weight: bold;
+}
+.nav-links{
+ display: flex;
+ justify-content: space-evenly;
+ flex-grow: 1;
+}
+.nav-links a{
+ text-decoration: none;
+ color: #D1D1D1;
+ font-size: 13px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+}
+.header-title{
+ position: relative;
+ margin-top: 110px;
+ margin-bottom: 80px;
+}
+.header-subtitle-text{
+ color: #8c8c8c;
+ font-size: 13px;
+ font-weight: bold;
+ border-left: 1px solid #8c8c8c;
+ padding: 8px 20px;
+ margin-bottom: 13px;
+ text-transform: uppercase;
+ letter-spacing: 1.5px;
+}
+.header-title-text{
+ font-size: 90px;
+ color: white;
+ font-weight: bold;
+ max-width: 620px;
+}
+.join{
+ background-color: #FEBE02;
+ position: absolute;
+ right: 0;
+ bottom: 0;
+ width: 110px;
+ height: 110px;
+ padding: 16px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ text-decoration: none;
+ color: #1A1A1A;
+ font-weight: bold;
+ border-radius: 6px;
+}
+.header-info{
+ display: flex;
+ justify-content: space-between;
+}
+.card-info{
+ max-width: 361px;
+}
+.info-title{
+ color: white;
+ font-size: 20px;
+ font-weight: bold;
+ margin-top: 15px;
+ margin-bottom: 5px;
+}
+.info-subtitle{
+ color: #8c8c8c;
+ font-size: 13px;
+ font-weight: bold;
+}
+.about-text-title{
+ color: white;
+ font-size: 13px;
+ border-left: 1px solid white;
+ font-weight: bold;
+ padding: 8px 20px;
+ margin-bottom: 13px;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+}
+.about-text-subtitle{
+ color: #D1D1D1;
+ font-size: 14px;
+ max-width: 240px;
+ line-height: 1.8;
+}
+.audio-block{
+ background-color: #242424;
+ display: flex;
+ margin-top: 60px;
+ width: 540px;
+}
+.audio-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex: 1;
+ position: relative;
+ padding: 0 30px;
+}
+.audio-detail{
+ flex: 1;
+}
+.control{
+ position: absolute;
+ right: 0;
+ bottom: 0;
+}
+.control i{
+ width: 40px;
+ height: 40px;
+ background-color: #FEBE02;
+ color: #1A1A1A;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+@media (max-width: 992px){
+ .header-info{
+ flex-direction: column;
+ }
+ .card-about{
+ margin-top: 60px;
+ }
+ .container{
+ padding: 0 20px;
+ }
+ .about-wrapper{
+ width: 300px;
+ }
+}
+@media (max-width: 578px){
+ .join{
+ display: none;
+ }
+ .header-title-text{
+ font-size: 60px;
+ }
+ .audio-block img{
+ display: none;
+ }
+ .audio-block, .card-about, .card-info img{
+ width: 100%;
+ }
+ .info-title, .info-subtitle{
+ text-align: center;
+ }
+}
