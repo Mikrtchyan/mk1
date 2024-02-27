@@ -144,6 +144,53 @@ nav{
  justify-content: center;
  align-items: center;
 }
+
+footer{
+    background-color: azure;
+    padding: 60px;
+}
+
+.courses-title{
+    font-size: 70px;
+    color: #1A1A1A;
+    padding-bottom: 40px;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    padding: 30px;
+}
+
+.left-block{
+    display: flex;
+    align-items: center;
+}
+
+.courses-number{
+    color: #8c8c8c;
+    font-size: 25px;
+}
+
+.course-block{
+    margin-left: 60px;
+    line-height: 1.5;
+}
+
+.course-block h2{
+    margin-left: 50px;
+    letter-spacing: 0.8px;
+}
+
+.course-block p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: aquamarine;
+
+}
+
 @media (max-width: 992px){
  .header-info{
  flex-direction: column;
